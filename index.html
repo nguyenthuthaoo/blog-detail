@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/scss/style.css">
     <link rel="stylesheet" href="assets/css/base.css">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/js/boostrap.min.js">
@@ -19,15 +19,15 @@
 
 <body>
     <div class="wrapper">
-        <header class="header" id="navbar">
-            <div class="grid">
-                <div class="header__logo">
+        <header class="header">
+            <div class="grid header__container">
+                <div class="header-logo">
                     <a href="/">
                         <img class="" src="assets/img/microsoft365-logo-reverse.svg" alt="リードプラス株式会社">
                     </a>
                 </div>
-                <div class="header__navbar">
-                    <ul class="header__navbar-list">
+                <div class="header-navbar">
+                    <ul class="navbar-list">
                         <li class="navbar-item-depth-1 item-has-children"><a href="https://www.biz2cloud.com/microsoft365" aria-haspopup="true" aria-expanded="false" role="menuitem">製品</a>
                             <ul class="navbar-chilren-wrap">
                                 <li class="navbar-item-depth-2"><a href="https://www.biz2cloud.com/microsoft365">Microsoft 365</a></li>
@@ -288,42 +288,42 @@
                     </div>
                     <div class="col-md-3">
                         <div class="blog-sitebar">
-                            <div class="blog-sitebar__top-cta">
+                            <div class="top-cta">
                                 <a href="https://www.biz2cloud.com/resource/office365-maruwakari-guide">
                                     <img class="image-top-cta" src="assets/img/0ac99ea9-2933-4b7b-ab27-96819a8f3862.png" alt="">
                                 </a>
                             </div>
-                            <div class="blog-sitebar__top-post">
+                            <div class="top-post">
                                 <h3 class="ranking-blog"><span class="ow">RANKING</span>人気資料ランキング</h3>
-                                <ol>
+                                <ul>
                                     <li><a href="https://www.biz2cloud.com/resource/office365-maruwakari-guide" target="_blank">Microsoft Officeユーザーのための 最新版 Microsoft Office まるわかりガイド</a></li>
                                     <li><a href="https://www.biz2cloud.com/resource/buyers-guide" target="_blank">ビジネスをスマートに実現する企業のためのMicrosoft 365 賢い買い方ガイド</a></li>
                                     <li><a href="https://www.biz2cloud.com/resource/introduce-new-office" target="_blank">【新しいOffice編】Office365導入のススメ</a></li>
                                     <li><a href="https://www.biz2cloud.com/resource/introduce-mail-server" target="_blank">【メール サーバー 編】Office365導入のススメ</a></li>
                                     <li><a href="https://www.biz2cloud.com/resource/mynumber-security" target="_blank">マイナンバー時代のセキュリティ対策読本</a></li>
-                                </ol>
+                                </ul>
                             </div>
-                            <div class="blog-sitebar__top-cta" style="margin-top: 20px;">
+                            <div class="top-cta" style="margin-top: 20px;">
                                 <a href="https://www.biz2cloud.com/resource/office365-maruwakari-guide">
                                     <img class="image-top-cta" src="assets/img/sidebar_subscription.webp" alt="">
                                 </a>
                             </div>
-                            <div class="blog-sitebar__top-cta" style="margin-top: 10px;">
+                            <div class="top-cta" style="margin-top: 10px;">
                                 <a href="https://www.biz2cloud.com/resource/office365-maruwakari-guide">
                                     <img class="image-top-cta" src="assets/img/befc2bc1-adc7-4f50-bc54-df69bd3e5db2.png" alt="">
                                 </a>
                             </div>
-                            <div class="blog-sitebar__top-cta" style="margin-top: 10px;">
+                            <div class="top-cta" style="margin-top: 10px;">
                                 <a href="https://www.biz2cloud.com/resource/office365-maruwakari-guide">
                                     <img class="image-top-cta" src="assets/img/75db5c7b-f483-4782-a2aa-3d7ecf183246.png" alt="">
                                 </a>
                             </div>
-                            <div class="blog-sitebar__top-cta" style="margin-top: 10px;">
+                            <div class="top-cta" style="margin-top: 10px;">
                                 <a href="https://www.biz2cloud.com/resource/office365-maruwakari-guide">
                                     <img class="image-top-cta" src="assets/img/d10cf257-5e9e-41d8-9123-02ce124f6b9d.png" alt="">
                                 </a>
                             </div>
-                            <div class="blog-sitebar__recent-post">
+                            <div class="recent-post">
                                 <h3 class="recent-blog"><span class="ow">RECENT POST</span> 最新記事</h3>
                                     <div class="item" style="border:none">
                                         <a href="https://www.biz2cloud.com/blog/meti-system-management-standards">
@@ -386,17 +386,17 @@
                                         </a>
                                     </div>
                             </div>
-                            <div class="blog-sitebar__top-post">
+                            <div class="top-post">
                                 <h3 class="ranking-blog"><span class="ow">RANKING</span>人気記事ランキング</h3>
-                                <ol>
+                                <ul>
                                     <li><a href="https://www.biz2cloud.com/resource/office365-maruwakari-guide" target="_blank">意外と知らないOutlookを使用した会議予約の裏技</a></li>
                                     <li><a href="https://www.biz2cloud.com/resource/buyers-guide" target="_blank">Microsoft 365で使用する「onmicrosoft.com」とは</a></li>
                                     <li><a href="https://www.biz2cloud.com/resource/introduce-new-office" target="_blank">Microsoft Teamsのタスク管理機能の使い方</a></li>
                                     <li><a href="https://www.biz2cloud.com/resource/introduce-mail-server" target="_blank">Office 365をサインインしたままにする方法とメリットデメリット</a></li>
                                     <li style="border-bottom: none;"><a href="https://www.biz2cloud.com/resource/mynumber-security" target="_blank">Office 365をオフラインで使用する方法</a></li>
-                                </ol>
+                                </ul>
                             </div>
-                            <div class="blog-sitebar__topic-post">
+                            <div class="topic-post">
                                 <h3 class="topic-blog"><span class="ow">TOPIC</span>トピック一覧</h3>
                                 <ul style="list-style-type: none;">
                                     <li><a href="https://www.biz2cloud.com/resource/office365-maruwakari-guide" target="_blank">業務効率化 </a></li>
@@ -408,9 +408,9 @@
 
                                 </ul>
                             </div>
-                            <div class="blog-sitebar__search-box">
+                            <div class="search-box">
                                 <h3><span class="ow">SEARCH</span>ブログ内検索</h3>
-                                <div class="search-box">
+                                <div class="box">
                                     <form action="/search">
                                         <input placeholder="検索キーワードを入力" type="text" id="edit-search" name="q" value="" size="15" maxlength="128" class="form-text">
                                     </form>
